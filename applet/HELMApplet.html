@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>HELM Editor Applet</title>
+</head>
+<script type="text/javascript">
+
+/*function getText() {
+    var textObj = document.getElementById('HelmArea');
+    if (textObj == null) {
+    	throw 'Text object not found';
+    }
+    return textObj;
+}*/
+function getApplet() {
+    var appletObj = document.getElementById('PMEApplet');
+    if (appletObj == null) {
+    	throw 'PME applet not found';
+    }
+    return appletObj;
+}
+
+/*function getNotation() {
+    getText().value = getApplet().getNotation();
+}
+
+function setNotation() {
+    getApplet().setNotation(getText().value);
+}*/
+
+</script>
+<body>
+	<h2>HELM Editor Applet</h2>
+	<embed id="HELMApplet" width="800" height="600" 
+		code="org/helm/editor/HELMApplet" archive="HELM.jar, AppletLibs.jar" 
+		codebase="." pluginspage="http://java.sun.com/javase/downloads/index.jsp" 
+		type="application/x-java-applet;version=1.5" mayscript="true" />
+<!--
+	<textarea id="HelmArea" cols="80" rows="10"></textarea>
+	<br/>
+	<input id="GetNotationButton" type="button" value="Get Notation" onClick="getNotation();" />
+	<input id="SetNotationButton" type="button" value="Set Notation" onClick="setNotation();" />
+-->
+</body>
+</html>
