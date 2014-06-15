@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp spec="1.0+" codebase="http://pistoiahelm.github.io/jws">
     <information>
-        <title>HELMEditor-1.2</title>
+        <title>HELM Editor</title>
         <vendor>Pistoia Alliance</vendor>
         <homepage href="http://pistoiahelm.github.io"/>
         <description>HELM Editor</description>
         <description kind="short">HELMEditor</description>
-        <icon href="http://pistoiahelm.github.io/jws/Icon-HELM.png" kind="default"/>
-        <icon href="http://pistoiahelm.github.io/jws/Splash-HELM.png" kind="splash"/>
+        <icon href="http://pistoiahelm.github.io/jws/helm.png" kind="default"/>
+        <icon href="http://pistoiahelm.github.io/jws/pistoia_alliance.gif" kind="splash"/>
         <offline-allowed/>
         <shortcut online="true">
             <desktop/>
