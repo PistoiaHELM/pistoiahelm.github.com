@@ -6,7 +6,7 @@
         <homepage href="http://pistoiahelm.github.io"/>
         <description>HELM Editor</description>
         <description kind="short">HELMEditor</description>
-        <icon href="http://pistoiahelm.github.io/jws/helm.png" kind="default"/>
+        <icon href="http://pistoiahelm.github.io/jws/helm_logo.png" kind="default"/>
         <icon href="http://pistoiahelm.github.io/jws/pistoia_alliance.gif" kind="splash"/>
         <offline-allowed/>
         <shortcut online="true">
