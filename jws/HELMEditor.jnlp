@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="http://pistoiahelm.github.io/jws" href="http://pistoiahelm.github.io/jws">
+<jnlp spec="1.0+" codebase="http://pistoiahelm.github.io/jws">
     <information>
         <title>HELMEditor-1.2</title>
         <vendor>Pistoia Alliance</vendor>
