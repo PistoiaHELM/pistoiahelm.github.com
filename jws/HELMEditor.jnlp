@@ -6,8 +6,8 @@
         <homepage href="http://pistoiahelm.github.io"/>
         <description>HELM Editor</description>
         <description kind="short">HELMEditor</description>
-        <icon href="Icon-HELM.png" kind="default"/>
-        <icon href="Splash-HELM.png" kind="splash"/>
+        <icon href="http://pistoiahelm.github.io/jws/Icon-HELM.png" kind="default"/>
+        <icon href="http://pistoiahelm.github.io/jws/Splash-HELM.png" kind="splash"/>
         <offline-allowed/>
         <shortcut online="true">
             <desktop/>
@@ -17,8 +17,8 @@
 
     <resources>
         <j2se version="1.6+" java-vm-args="-Xms256M -Xmn128M -Xmx256M"/>
-        <jar href="HELM.jar" main="true" download="eager"/>
-        <jar href="AppletLibs.jar" download="eager"/>
+        <jar href="http://pistoiahelm.github.io/jws/HELM.jar" main="true" download="eager"/>
+        <jar href="http://pistoiahelm.github.io/jws/AppletLibs.jar" download="eager"/>
     </resources>
     <security>
       <all-permissions/>
