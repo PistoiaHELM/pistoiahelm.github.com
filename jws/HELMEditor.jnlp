@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://github.com/PistoiaHELM/pistoiahelm.github.com/jws" href="jws">
+    <information>
+        <title>HELMEditor-1.2</title>
+        <vendor>Pistoia Alliance</vendor>
+        <homepage href="https://github.com/PistoiaHELM/pistoiahelm.github.com"/>
+        <description>HELM Editor</description>
+        <description kind="short">HELMEditor</description>
+        <icon href="Icon-HELM.png" kind="default"/>
+        <icon href="Splash-HELM.png" kind="splash"/>
+        <offline-allowed/>
+        <shortcut online="true">
+            <desktop/>
+            <menu submenu="Pistoia Alliance"/>
+        </shortcut>
+    </information>
+
+    <resources>
+        <j2se version="1.6+" java-vm-args="-Xms256M -Xmn128M -Xmx256M"/>
+        <jar href="HELM.jar" main="true" download="eager"/>
+        <jar href="AppletLibs.jar" download="eager"/>
+    </resources>
+    <security>
+      <all-permissions/>
+    </security>
+    <application-desc main-class="org.helm.editor.HELMApp"/>
+</jnlp>
+        
