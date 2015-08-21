@@ -16,7 +16,7 @@
     </information>
 
     <resources>
-        <j2se version="1.6+" java-vm-args="-Xms256M -Xmn128M -Xmx256M"/>
+        <j2se version="1.7+" java-vm-args="-Xms256M -Xmn128M -Xmx256M"/>
         <jar href="http://pistoiahelm.github.io/jws/HELM.jar" main="true" download="eager"/>
         <jar href="http://pistoiahelm.github.io/jws/AppletLibs.jar" download="eager"/>
     </resources>
