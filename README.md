@@ -15,13 +15,15 @@ There are two major versions:
 - HELM1 - (the original)
 - HELM2 which added the ability to define ambiguous components, connections and compositions as well as more complex annotations and groups. 
 
-We recommend that new starters use the HELM2 tools. The following are key components
+They have been written in a modular form, so developers can access the functionality they want and swap in their own components. The relationships between the HELM2 components are shown below:
 
-- HELM web-editor
-- HELM2 notation toolkit 
-- HELM2 webservice
+![](https://github.com/PistoiaHELM/pistoiahelm.github.com/blob/master/images/Architecture%20Overview.png)
 
-If you are interested in viewing and manipulating antibodies at a domain level, try the HELM Antibody editor. 
+
+The original HELM editor is a java thick client and you will need the editor code and toolkit to work with it. If you are interested in viewing and manipulating antibodies at a domain level, try the HELM Antibody editor. The toolkit is also required for this to work. 
+
+Monomers for the thick clients are included in the code and stored locally. 
+
 
 
 ### Forum ###
