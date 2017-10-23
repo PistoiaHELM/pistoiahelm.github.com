@@ -17,7 +17,7 @@ There are two major versions:
 
 They have been written in a modular form, so developers can access the functionality they want and swap in their own components. The relationships between the HELM2 components are shown below:
 
-![](https:./images/Architecture%20Overview.png)
+![](./images/Architecture%20Overview.png)
 
 
 The original HELM editor is a java thick client and you will need the editor code and toolkit to work with it. If you are interested in viewing and manipulating antibodies at a domain level, try the HELM Antibody editor. The toolkit is also required for this to work. 
