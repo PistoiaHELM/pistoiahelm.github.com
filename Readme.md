@@ -34,7 +34,7 @@ There are various tools available:
 
 This is still being developed and will include a lot more back-end components when complete.The relationships between the HELM2 components are shown below:
 
-![](https:/images/Architecture%20Overview.png)
+![](https:/images /Architecture%20Overview.png)
 
 
 ### Forum ###
