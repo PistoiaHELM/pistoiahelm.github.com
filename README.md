@@ -39,7 +39,7 @@ This is still being developed and will include a lot more back-end components wh
 
 
 
-![](https:/images/ArchitectureOverview.png)
+![](/images/ArchitectureOverview.png)
 
 
 
