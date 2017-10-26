@@ -30,12 +30,18 @@ There are various tools available:
 - requires the code from HELMWebEditor for a local version
 - requires the code from HELMWebEditor and HELM2NotationToolkit if you want a central repository for monomers. 
 
-**HELM Webeditor with ambiguity**
+There are other dependencies. Please see the information in the repositories themselves for full details. 
+
+
+**HELM WebEditor with ambiguity**
 
 This is still being developed and will include a lot more back-end components when complete.The relationships between the HELM2 components are shown below:
 
 
+
 ![](https:/images/Architecture%20Overview.png)
+
+
 
 
 ### Forum ###
