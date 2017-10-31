@@ -27,8 +27,8 @@ There are various tools available:
 
 **HELM WebEditor** - a thin client editor
 
-- requires the code from HELMWebEditor for a local version
-- requires the code from HELMWebEditor and HELM2NotationToolkit if you want a central repository for monomers. 
+- requires the code from HELMWebEditor and HELM2Webservice.
+
 
 There are other dependencies. Please see the information in the repositories themselves for full details. 
 
@@ -38,6 +38,20 @@ There are other dependencies. Please see the information in the repositories the
 This is still being developed and will include a lot more back-end components when complete.The relationships between the HELM2 components are shown below:
 
 ![](/images/ArchitectureOverview.png)
+
+
+###Installation Packs###
+
+Installation packs for the Java components are available in the [Nexus Repository Manager](https://oss.sonatype.org/#nexus-search;quick~org.pistoiaalliance.helm), so you won't find releases in all repositories. 
+
+The exceptions are:
+
+- HELM Editor
+- HELM Antibody Editor
+- HELM Webeditor
+
+Where the releases are available in the GitHub release folder. 
+
 
 ### Forum ###
 
