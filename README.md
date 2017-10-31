@@ -40,7 +40,7 @@ This is still being developed and will include a lot more back-end components wh
 ![](/images/ArchitectureOverview.png)
 
 
-###Installation Packs###
+### Installation Packs ###
 
 Installation packs for the Java components are available in the [Nexus Repository Manager](https://oss.sonatype.org/#nexus-search;quick~org.pistoiaalliance.helm), so you won't find releases in all repositories. 
 
