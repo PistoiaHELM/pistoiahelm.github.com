@@ -20,7 +20,7 @@ RUN curl -o $CATALINA_HOME/webapps/HELM2MonomerService.war "https://github.com/P
 #install HELM Web Editor
 ENV HELM_WEB_EDITOR_VERSION=1.0.0
 
-RUN curl -o $CATALINA_HOME/tmp/hwe.zip "https://github.com/PistoiaHELM/HELMWebEditor/releases/download/V${HELM_WEB_EDITOR_VERSION}/HELMWebEditor${HELM_WEB_EDITOR_VERSION}.zip" -L
+RUN curl -o $CATALINA_HOME/tmp/hwe.zip "https://github.com/PistoiaHELM/HELMWebEditor/releases/download/${HELM_WEB_EDITOR_VERSION}/hwe-${HELM_WEB_EDITOR_VERSION}.zip" -L
 
 RUN unzip $CATALINA_HOME/tmp/hwe.zip
 
