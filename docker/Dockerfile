@@ -13,7 +13,7 @@ ENV HELM2_WEBSERVICE_VERSION=2.2.0
 RUN curl -o $CATALINA_HOME/webapps/WebService.war "https://oss.sonatype.org/service/local/repositories/releases/content/org/pistoiaalliance/helm/helm2-webservice/${HELM2_WEBSERVICE_VERSION}/helm2-webservice-${HELM2_WEBSERVICE_VERSION}.war"
 
 #install HELM2 Monomer Service
-ENV HELM2_MONOMERSERVICE_VERSION=0.0.3
+ENV HELM2_MONOMERSERVICE_VERSION=0.0.4
 
 RUN curl -o $CATALINA_HOME/webapps/HELM2MonomerService.war "https://github.com/PistoiaHELM/HELMMonomerService/releases/download/${HELM2_MONOMERSERVICE_VERSION}/HELM2MonomerService.war" -L
 
