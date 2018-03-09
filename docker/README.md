@@ -29,3 +29,15 @@ Use the following command to verify a docker container is running based on this 
 Open the following URL in your favorite web browser:
 
   http://localhost:8080/hwe/
+
+## Explore HELM Monomer Service Swagger Page
+
+Open the following URL in your favorite web browser:
+
+  http://localhost:8080/HELM2MonomerService/
+  
+## Explore HELM Web Service Swagger Page
+
+Open the following URL in your favorite web browser:
+
+  http://localhost:8080/WebService/HowToUse.html
