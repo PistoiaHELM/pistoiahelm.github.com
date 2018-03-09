@@ -8,12 +8,12 @@ RUN echo $JAVA_HOME
 WORKDIR $CATALINA_HOME/tmp
 
 #install HELM2 Web Service
-ENV HELM2_WEBSERVICE_VERSION=2.3.0
+ENV HELM2_WEBSERVICE_VERSION=2.3.1
 
 RUN curl -o $CATALINA_HOME/webapps/WebService.war "https://oss.sonatype.org/service/local/repositories/releases/content/org/pistoiaalliance/helm/helm2-webservice/${HELM2_WEBSERVICE_VERSION}/helm2-webservice-${HELM2_WEBSERVICE_VERSION}.war"
 
 #install HELM2 Monomer Service
-ENV HELM2_MONOMERSERVICE_VERSION=0.0.9
+ENV HELM2_MONOMERSERVICE_VERSION=1.0.0
 
 RUN curl -o $CATALINA_HOME/webapps/HELM2MonomerService.war "https://github.com/PistoiaHELM/HELMMonomerService/releases/download/${HELM2_MONOMERSERVICE_VERSION}/HELM2MonomerService.war" -L
 
