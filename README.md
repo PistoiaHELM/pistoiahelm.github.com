@@ -25,43 +25,40 @@ Some tools support HELM1 only and some also include HELM2 support:
 
 **The original HELM Editor** - a Java thick client 
 
-- Requires the code from the repositories: HELMeditor and HELMNotationToolkit
+**The HELM Antibody Editor** - a Java thick client, kindly donated by Roche. 
 
-**HELM Antibody Editor** - a Java thick client
+There is also a toolkit to play with.  
 
-- V1 Requires the code from the repositories: HELMAntibodyEditor and HELMNotationToolkit
-- V2 Requires the code from the repositories: HELMAntibodyEditor2, HELMAntibodyEditor2Plugin and HELMNotationToolkit
 
+### HELM2 tools ###
 
 
 **HELM WebEditor** - a Javascript editor 
 
-- requires the code from HELMWebEditor and HELM2Webservice.
+- The webeditor depends on a a set of services which have been split into modules for easier maintenance. The diagram below shows the relationship between the components. 
 
 
-There are other dependencies. Please see the information in the repositories themselves for full details. 
+![](https://github.com/ClairePA/pistoiahelm.github.com/blob/master/images/ArchitectureOverview.png?raw=true)
 
 
-**HELM WebEditor with ambiguity**
+**The HELM Antibody Editor 2** - a Java thick client containing many improvements over the first version. Also kindly donated by Roche. 
 
-This is still being developed and will include a lot more back-end components when complete.The relationships between the HELM2 components are shown below:
 
-![](https://github.com/PistoiaHELM/pistoiahelm.github.com/blob/master/images/ArchitectureOverview.png?raw=true)
 
 
 ## Installation Packs ##
 
-Installation packs for many components are available in Maven repositories within [Nexus Repository Manager](https://oss.sonatype.org/#nexus-search;quick~org.pistoiaalliance.helm), so you won't find everything in GitHub. 
+Installation packs for many components are available in Maven repositories within [Nexus Repository Manager](https://oss.sonatype.org/#nexus-search;quick~org.pistoiaalliance.helm), so you won't find all the binaries in GitHub. 
 
 The exceptions are:
 
 - HELM Editor
 - HELM Antibody Editor (V1 & V2)
-- HELM Webeditor
+- HELM Webeditor Javascript code
 
 Where releases are available in the GitHub release folder. 
 
-
+See the individual repositories for full details. 
 
 
 ## Forum ##
