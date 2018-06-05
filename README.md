@@ -1,3 +1,11 @@
+___
+**NOTE**
+
+From September 2018 new changes to the HELM code will start to use Java 8 and may include some features not supported by Java 7. Please take this into account in your HELM plans. Specific details will be available in the repository release notes. 
+
+___
+
+
 # HELM #
 
 
