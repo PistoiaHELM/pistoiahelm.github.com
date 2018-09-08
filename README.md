@@ -1,3 +1,11 @@
+___
+**NOTE**
+
+From September 2018 new changes to the HELM code will start to use Java 8 and may include some features not supported by Java 7. Please take this into account in your HELM plans. Specific details will be available in the repository release notes. 
+
+___
+
+
 # HELM #
 
 
@@ -60,6 +68,8 @@ Where releases are available in the GitHub release folder.
 
 See the individual repositories for full details. 
 
+Alternatively you can use the Docker image available in https://github.com/PistoiaHELM/pistoiahelm.github.com/tree/master/docker
+Full instructions are available in this folder.  
 
 ## Forum ##
 
