@@ -26,6 +26,9 @@ RUN unzip $CATALINA_HOME/tmp/hwe.zip
 
 RUN cp -r $CATALINA_HOME/tmp/hwe $CATALINA_HOME/webapps
 
+# copy index.html to ROOT folder to replace the default TOMCAT home page
+COPY index.html $CATALINA_HOME/webapps/ROOT/index.html
+
 #COPY tomcat-users.xml /usr/local/tomcat/conf
 
 EXPOSE 8080
