@@ -30,8 +30,8 @@ RUN cp -r $CATALINA_HOME/tmp/hwe $CATALINA_HOME/webapps
 COPY index_dev.html $CATALINA_HOME/webapps/ROOT/index.html
 
 # copy server_dev.html to conf folder to replace the default server.xml file
-COPY server_dev.xml $CATALINA_HOME/conf/server.xml
+# COPY server_dev.xml $CATALINA_HOME/conf/server.xml
 
-EXPOSE 8000
+EXPOSE 8080
 
 CMD ["catalina.sh", "run"]
