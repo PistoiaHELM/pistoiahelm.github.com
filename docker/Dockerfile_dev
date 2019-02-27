@@ -18,7 +18,7 @@ ENV HELM2_MONOMERSERVICE_VERSION=1.1.6
 RUN curl -o $CATALINA_HOME/webapps/HELM2MonomerService.war "https://oss.sonatype.org/service/local/repositories/releases/content/org/pistoiaalliance/helm/helm2-monomerservice/${HELM2_MONOMERSERVICE_VERSION}/helm2-monomerservice-${HELM2_MONOMERSERVICE_VERSION}.war"
 
 #install HELM Web Editor
-ENV HELM_WEB_EDITOR_VERSION=1.1.3
+ENV HELM_WEB_EDITOR_VERSION=1.1.4
 
 RUN curl -o $CATALINA_HOME/tmp/hwe.zip "https://github.com/PistoiaHELM/HELMWebEditor/releases/download/${HELM_WEB_EDITOR_VERSION}/hwe-${HELM_WEB_EDITOR_VERSION}.zip" -L
 
