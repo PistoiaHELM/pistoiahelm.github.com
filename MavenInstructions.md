@@ -2,10 +2,10 @@ These are the instructions for publishing HELM GitHub repositories to Maven. All
 
  
 
-Find the Key: 
+### Find the Key: 
 The project keys are kept by the Pistoia Alliance technical support group. Contact info@openHELM.org for details. 
 
-Deploy with apache maven:
+### Deploy with apache maven:
 The pom.xml  must be extended to generate javadoc and sources attachments and integrate the maven-gpg-plugin, so that the artifacts can be signed using maven. 
 
 For the documentation, see http://central.sonatype.org/pages/apache-maven.html and http://central.sonatype.org/pages/requirements.html. 
@@ -27,7 +27,7 @@ Run maven with clean deploy and the snapshot version will be uploaded to the sna
 
  
 
-Steps to run maven:
+### Steps to run maven:
  
 
 1)   Add the keys to your gpg with the import function: „gpg –import pistoia_pub.gpg“ and „gpg –import pistoia_sec.gpg“
