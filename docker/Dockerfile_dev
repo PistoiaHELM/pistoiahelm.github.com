@@ -8,7 +8,7 @@ RUN echo $JAVA_HOME
 WORKDIR $CATALINA_HOME/tmp
 
 #install HELM2 Web Service
-ENV HELM2_WEBSERVICE_VERSION=3.0.6
+ENV HELM2_WEBSERVICE_VERSION=3.0.7
 
 RUN curl -o $CATALINA_HOME/webapps/WebService.war "https://oss.sonatype.org/service/local/repositories/releases/content/org/pistoiaalliance/helm/helm2-webservice/${HELM2_WEBSERVICE_VERSION}/helm2-webservice-${HELM2_WEBSERVICE_VERSION}.war"
 
